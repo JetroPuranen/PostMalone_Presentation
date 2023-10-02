@@ -1,0 +1,47 @@
+body
+{
+    height: 980px;
+    background-color: black;
+    background-size: cover;
+}
+
+#albumcover
+{
+    
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+    font-size: 35px;
+}
+
+#biisit
+{
+  text-align: center;
+}
+
+#frame
+{
+    margin: 35px 
+}
+#back{
+    float: left;
+}
+#backM{
+    float: center;
+}
+#forward{
+    float: right;
+}
+#nappi{
+   height: 50px;
+}
+
+#back:hover, #backM:hover, #forward:hover{
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+
+
+
+

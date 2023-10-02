@@ -1,0 +1,104 @@
+body
+{
+    height: 980px;
+    background-color: black;
+    background-size: cover;
+}
+
+.otsikko
+{ 
+    height: 150px;
+    text-align: center;
+    color: black;
+    border: 30px solid black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 130px;
+    background-color: yellow;
+    margin: 1px;
+    animation: zoomIn 3s;
+}
+
+#nav ul
+{
+    list-style: none;
+    text-align: center;
+}
+#nav li
+{
+    display: inline;
+    float: left;
+}
+
+#nav a:link, #nav a:visited
+{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    width: 905px;
+    background-color: black;
+    font-size: 60px;
+    height: 70px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    
+}
+
+#nav a:hover
+{
+    color: yellow;
+    background-color: black;
+    transform: scale(1.2);
+}
+
+#content{
+    
+    margin-top: 120px;
+    height: 700px;
+    background-size: cover;
+}
+
+#alb1, #alb2, #alb3, #alb4, #muut{
+    text-align: center;
+    min-height: 200px;
+    overflow: auto;
+    float: left;
+    padding: 12px;
+    margin: 25px;
+    border: 1px solid white;
+    width: 395px;
+ 
+}
+#alb1:hover img, #alb2:hover img, #alb3:hover img, #alb4:hover img, #muut:hover img{
+    opacity: 0.3;
+}
+
+
+#content p{
+    color: white;
+    font-size: 35px;
+}
+#faktoja{
+    margin-top: 30px;
+    height: 400px;
+    background-color: yellow;
+    float: right;
+    margin-right: 40px;
+    width: 1360px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+
+#fakta{
+    height: 40px;
+    width: 150px;
+    margin-left: 10px;
+    background-color: black;
+    color: yellow;
+}
+
+#tulostaFakta{
+    font-size: 20px;
+}
+

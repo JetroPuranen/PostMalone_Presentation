@@ -1,0 +1,153 @@
+body
+{
+    height: 980px;
+    background-color: black;
+    background-size: cover;
+}
+
+.otsikko
+{ 
+    height: 150px;
+    text-align: center;
+    color: black;
+    border: 30px solid black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 130px;
+    background-color: yellow;
+    margin: 1px;
+    animation: pulse 5s;
+    animation-iteration-count: infinite;
+    
+    
+}
+
+#Akuvat
+{
+    text-align: center;
+    
+    
+}
+
+#tietoja
+{
+    
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    background-color: yellow;
+    
+}
+
+#tietoja p
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*#nav
+{
+    
+    
+}
+*/
+#nav ul
+{
+    list-style: none;
+    text-align: center;
+}
+#nav li
+{
+    display: inline;
+    float: left;
+}
+
+#nav a:link, #nav a:visited
+{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    width: 890px;
+    background-color: black;
+    /*border: 1px solid black;*/
+    font-size: 60px;
+    height: 70px;
+    margin-bottom: 25px;
+    margin-top: 30px;
+    border-radius: 0px;
+    margin: 0px;
+}
+#nav a:hover
+{
+    color: black;
+    background-color: yellow;
+    transform: scale(0.7);
+}
+
+#Lomake{
+    float: left;
+    color: white;
+    font-size: 23px;
+}
+
+#Lomake h2{
+    font-size: 70px;
+}
+
+#Lomake #teksti{
+    font-size: 14pt;
+    width: 500px;
+    resize: none;
+    background-color: yellow;
+    color: black;
+    min-height: 200px;
+}
+
+#Lomake #nappi{
+    height: 40px;
+    width: 150px;
+    background-color: yellow;
+    color: black;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+#Lomake #nimi, #sahkoposti{
+    font-size: 12pt;
+    width: 180px;
+    height: 40px;
+    background-color: yellow;
+    color: black;
+}
+
+#mediat{
+    margin-top: 20px;
+    margin-right: 25px;
+    width: 660px;
+    height: 750px;
+    color: black;
+    float: right;
+    background-color: yellow;
+    text-align: center;
+    
+}
+#mediat h2{
+    font-size: 62px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#bottom{
+
+    background-color: yellow;
+    height: 100px;
+    
+}
+
+#ig, #tube, #spot, #twit{
+    margin: 50px;
+}
+
+#ig:hover, #tube:hover, #spot:hover, #twit:hover{
+    transform: scale(1.2);
+}

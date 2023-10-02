@@ -1,0 +1,92 @@
+body
+{
+    height: 980px;
+    background-color: black;
+    background-size: cover;
+}
+
+.Eotsikko 
+{ 
+    height: 150px;
+    text-align: center;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 130px;
+    background-color: yellow;
+    margin: 1px;
+    border: 30px solid black;
+    animation: zoomIn 3s;
+    
+
+}
+
+#Tietoa{
+    color: white;
+    background-color: black;
+}
+
+#Tietoa #otsikot{
+    font-size: 80px;
+    color: yellow;
+    background-color: black;
+}
+
+#Tietoa p{
+    font-size: 23px;
+}
+
+#video{
+    text-align: center;
+}
+
+#nav ul
+{
+    list-style: none;
+    text-align: center;
+}
+#nav li
+{
+    display: inline;
+    float: left;
+}
+
+#nav a:link, #nav a:visited
+{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    width: 905px;
+    /*border: 1px solid white;*/
+    border-radius: 12px;
+    
+    font-size: 60px;
+    height: 70px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    
+}
+
+#nav a:hover
+{
+    color: yellow;
+    
+    transform: scale(1.2);
+}
+
+#stoney{
+    text-align: center;
+}
+
+#country{
+    text-align: center;
+}
+
+#teeth{
+    text-align: center;
+}
+
+#runaway{
+    text-align: center;
+}

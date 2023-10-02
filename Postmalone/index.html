@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+    <title>Postmalone</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css" media="screen" type="text/css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    </head>
+    <body>
+     <h1 class="otsikko">Post Malone</h1>
+     
+
+        <div id="Akuvat">
+            <img  src="Kuvat/post2.jpg" alt="post2" width="940" height="810">
+            <img  src="Kuvat/post6.jpg" alt="post6" width="940" height="810">
+        </div>
+        <div id="nav">
+            <ul>
+                <li><a href="elamakerta.html"><u>"Elämäkerta"</u></a></li>
+                <li><a href="teokset.html"><u>Diskografia
+                </u></a></li>
+        
+            </ul>
+        </div>
+        
+
+        <div id="tietoja">
+            <h2>Kuka on Post Malone?</h2>
+            <p>Austin Richard Post (s 4.7.1995) taitelijanimeltään Post Malone on yhdysvaltalainen rap-artisti ja laulaja, joka nousi kuuluisuuteen julkaistuaan singlen "White Iverson" vuonna 2015.</p>
+        </div>
+
+        <div id="LM">
+            <div id="Lomake">
+                <h2>Ota Yhteyttä</h2>
+                <p>Onko tiedoissamme jotain väärää? Onko jotain tietoa mitä voisi sivulle lisätä? Ota meihin yhteyttä alla olevan lomakkeen avulla.</p>
+    
+                <form>
+                    <label for="nimi">Nimi</label>
+                    <input type="text" id="nimi" placeholder="Matti Meikäläinen">
+                    <br>
+                    <label for="Sahkoposti">Sähköposti</label>
+                    <input type="text" id="sahkoposti">
+                    <br>
+                    <br>
+                    <label for="teksti" id="palaute">Palaute</label>
+                    <br>
+                    <textarea name="teksti" id="teksti" cols="20" rows="6"></textarea>
+                    
+                </form>
+                <button type="button" onclick="laheta();" id="nappi"><b>Lähetä tiedot</b></button>
+            </div>
+            <div id="mediat">
+                <h2><u>Mediat</u></h2>
+                
+                   <a href="https://www.instagram.com/postmalone/"> <img src="Kuvat/igram.png" alt="insta" height="200" width="200" id="ig"></a>
+                    
+                    <a href="https://www.youtube.com/channel/UCeLHszkByNZtPKcaVXOCOQQ"><img src="Kuvat/utube.png" alt="uTube" height="200" width="200" id="tube"></a>
+                    
+                    <a href="https://open.spotify.com/artist/246dkjvS1zLTtiykXe5h60?si=7b1HhqHPTHafMkpJcsNt-A"><img src="Kuvat/spotify.png" alt="spotify" height="200" width="200" id="spot"></a>
+
+                    <a href="https://twitter.com/postmalone"><img src="Kuvat/twitter.png" alt="twitter" height="200" width="200" id="twit"></a>
+                    
+                
+               
+            </div>
+        </div>
+   
+
+    
+        
+        <script src="koodi.js"></script>
+    </body>
+
+</html>
